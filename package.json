@@ -1,0 +1,14 @@
+{
+  "name": "fenwick-portal",
+  "version": "1.0.0",
+  "description": "Fenwick Patient Portal: a small, deterministic local web app for QA automation training (Cucumber + Playwright).",
+  "main": "server.js",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node scripts/selfcheck.js"
+  }
+}
